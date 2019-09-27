@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>URL Shortener</title>
+	<link rel="icon" type="image/gif" href="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T" />
+</head>
+<body>
+<h1>URL Shortener</h1>
+
+<div>
+	<form action="/create" method="POST">
+		Input URL: <input name="url">
+		<button>Submit</button>
+	</form>
+</div>
+<div>
+  Your shortened URL: {{ url }}
+</div>
+</body>
+</html>
